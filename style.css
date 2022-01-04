@@ -1,75 +1,44 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-.main{
-    background-image: url(background/top-banner.png);
-    background-repeat: no-repeat;
-    padding: 50px 0px;
-    overflow: hidden;
-}
+* { margin: 0px;
+     padding: 0px;
+      box-sizing: border-box;
+       font-family: Roboto, sans-serif;
+     }
 
-span.antu {
-    color: orange;
-}
+.main { background-image: url("background/top-banner.png");
+     background-repeat: no-repeat;
+      padding: 50px 0px; overflow: hidden;
+     }
 
-h1.welcome {
-    font-size: 45px;
-    line-height: 70px;
-    text-align: justify;
-    margin-top: -17px;
-}
-
-.welcomeone {
-    width: 500px;
-    float: left;
-    margin-left: 60px;
-    margin-top: 50px;
-    border-left: 5px solid;
-    border-image: linear-gradient(blue,#ff3a88);
-    border-image-slice: 1;
-    padding-left: 5px;
-}
-
-.auto {
-    width: 1170px;
-    margin: auto;
-}
-
-.my_image {
-    width: 500px;
-    float: right;
-    margin-right: 40px;
-}
-
-img {
-    width: 100%;
-}
-strong.simple {
-    font-size: 18px;
-    font-family: arial;
-    color: #443f3f;
-    display: block;
-    padding: 10px 0px;
-}
-
-p.writing {
-    padding: 20px 0px;
-    font-size: 19px;
-    text-align: justify;
-}
-
-button.butt {
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    background: linear-gradient(#ff2f80 ,#1653c1);
-    font-size: 18px;
-    color: white;
-    border-radius: 5px;
-    font-family: arial black;
-    text-transform: uppercase;
-    margin-top: 12px;
-}
+span.antu { color:#ff005e; }
+h1.welcome {font-size: 50px;line-height: 100px;margin-top: -30px;color: #242323;}
+.welcomeone {width: 490px;float: left;margin-left: 0px;margin-top: 69px;border-left: 5px solid;border-image: linear-gradient(blue, rgb(255, 58, 136)) 1 / 1 / 0 stretch;padding-left: 5px;}
+.auto {width: 1170px;margin: auto;}
+.my_image {width: 550px;float: right;}
+img { width: 100%; }
+strong.simple {font-size: 18px;font-family: arial;color: rgb(68, 63, 63);display: block;margin-top: 25px;}
+p.writing { padding: 20px 0px; font-size: 19px; text-align: justify; }
+button.butt { outline: none; border: none; padding: 10px 30px; background: linear-gradient(rgb(255, 47, 128), rgb(22, 83, 193)); font-size: 18px; color: white; border-radius: 5px; font-family: "arial black"; text-transform: uppercase; margin-top: 12px; }
+section.second {
+     padding: 100px 0px;
+     overflow: hidden;
+     background-color: #fbf9f9;
+ }
+ 
+ .my_imageone {
+     width: 490px;
+     float: left;
+ }
+ 
+ .welcomeone_two {
+     width: 500px;
+     float: right;
+     margin-top: 50px;
+     border-left: 5px solid;
+     border-image: linear-gradient(#d9358b,#324eb9);
+     border-image-slice: 1;
+     padding-left: 10px;
+ }
+ h1.d_2 {
+     color: #05233c;
+     font-size: 40px;
+ }
