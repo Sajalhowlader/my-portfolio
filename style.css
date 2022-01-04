@@ -7,6 +7,8 @@
 .main{
     background-image: url(background/top-banner.png);
     background-repeat: no-repeat;
+    padding: 50px 0px;
+    overflow: hidden;
 }
 
 span.antu {
@@ -14,6 +16,60 @@ span.antu {
 }
 
 h1.welcome {
-    font-size: 35px;
-    line-height: 75px;
+    font-size: 45px;
+    line-height: 70px;
+    text-align: justify;
+    margin-top: -17px;
+}
+
+.welcomeone {
+    width: 500px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,#ff3a88);
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+
+.auto {
+    width: 1170px;
+    margin: auto;
+}
+
+.my_image {
+    width: 500px;
+    float: right;
+    margin-right: 40px;
+}
+
+img {
+    width: 100%;
+}
+strong.simple {
+    font-size: 18px;
+    font-family: arial;
+    color: #443f3f;
+    display: block;
+    padding: 10px 0px;
+}
+
+p.writing {
+    padding: 20px 0px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+button.butt {
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    background: linear-gradient(#ff2f80 ,#1653c1);
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    font-family: arial black;
+    text-transform: uppercase;
+    margin-top: 12px;
 }
