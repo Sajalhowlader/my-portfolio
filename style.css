@@ -22,6 +22,10 @@ section.second {
      padding: 100px 0px;
      overflow: hidden;
      background-color: #fbf9f9;
+     background-image: url(background/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     background-size: 90px;
  }
  
  .my_imageone {
@@ -41,4 +45,60 @@ section.second {
  h1.d_2 {
      color: #05233c;
      font-size: 40px;
+ }
+ section.third {
+     padding: 100px 0px;
+     overflow: hidden;
+ }
+ .parents {
+     display: flex;
+ }
+ 
+ .half {
+     width: 50%;
+     box-shadow: 9px 9px 19px 4px #ddddd8;
+     padding: 10px 30px 80px 12px;
+     border-image: linear-gradient(#f83082, #2351be, white);
+     border-image-slice: 1;
+     border-left: 5px solid;
+     border-radius: 5px;
+ }
+ 
+ h1.full_stack {
+     font-size: 35px;
+     padding: 15px 0px;
+ }
+ 
+ h3.half_stac {
+     color: #fd0085;
+     padding: 15px 0px;
+ }
+ 
+ p.parafg {
+     text-align: justify;
+     font-size: 18px;
+     font-family: inherit;
+ }
+ .onehalf {
+     margin-right: 100px;
+     border-image: linear-gradient(rgb(215 223 243), #3c4db6, #ec3285);
+     border-image-slice: 1;
+     border-left: 5px solid;
+ }
+ 
+ section.experence {
+     padding: 100px 0px;
+ }
+ h1.ec {
+     font-size: 40px;
+     margin-bottom: 42px;
+     color: #0e70b1;
+     font-family: initial;
+ }
+ footer.last {
+     color: white;
+     text-align: center;
+     padding: 20px 0px;
+     font-size: 21px;
+     background: radial-gradient(#ff00a5, #000000d9);
  }
